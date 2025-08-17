@@ -1,0 +1,54 @@
+<main>
+  <h1>Animal Adoption Dashboard — Python/Dash, MongoDB</h1>
+
+  <section class="card">
+    <p><strong>Summary:</strong> Refactored a CS-340 shelter tool into a public-facing adoption dashboard with fast filtering, cleaner visuals, and pragmatic security. The project moves from a Jupyter prototype to a modular Python/Dash app that can handle large datasets and surface the right animals quickly.</p>
+  </section>
+
+  <h2>Code</h2>
+  <ul>
+    <li><strong>Enhanced (browse):</strong> <a href="https://github.com/sullivan52/animal-rescue-dashboard">github.com/sullivan52/animal-rescue-dashboard</a></li>
+  </ul>
+
+  <h2>Narrative</h2>
+  <section class="card">
+    <h3>Overview</h3>
+    <p>
+      Originally built for CS-340 (Client/Server Development), the first version lived in a Jupyter notebook and targeted a fictional client (Grazioso Salvare) to find rescue dogs using MongoDB and simple charts/maps. The enhanced version broadens the scope into a full adoption dashboard, letting the public filter by species, breed, age, sex, and other attributes to find a good match.
+    </p>
+
+    <h3>Why it’s in the ePortfolio</h3>
+    <p>
+      This artifact shows breadth: data ingestion at scale, a realistic UI in Dash, secure configuration, and performance-minded filtering. It demonstrates taking a narrowly scoped academic artifact and evolving it into an industry-relevant tool focused on user needs.
+    </p>
+
+    <h3>Enhancements Made</h3>
+    <ul>
+      <li><strong>Architecture &amp; Security:</strong> migrated from notebook to modular Python app; moved credentials to environment variables; added input validation and error handling.</li>
+      <li><strong>User Experience:</strong> redesigned the interface from a rescue-specific tool to a general adoption platform; modern filters (dropdowns, sliders, quick-select); cohesive visual design.</li>
+      <li><strong>Data &amp; Performance:</strong> integrated CSV processing for 10k+ records; optimized load/transform/display paths; clearer labeling and readable formats.</li>
+      <li><strong>Visualization:</strong> streamlined the map toward adopter-focused info; removed noisy charts; added toggles and richer popups.</li>
+      <li><strong>Code Quality:</strong> separated concerns into modules; replaced hardcoded values with constants/config; improved maintainability with reusable functions and documentation.</li>
+    </ul>
+
+    <h3>Outcomes Addressed</h3>
+    <ul>
+      <li><strong>Implement value-driven solutions:</strong> turned a specialized classroom tool into a practical adoption app aligned with real users.</li>
+      <li><strong>Sound computing practices:</strong> structured modules, secure credential management, and systematic error handling.</li>
+      <li><strong>Professional communication:</strong> README and in-code docs clarify setup, data flows, and design decisions.</li>
+    </ul>
+
+    <h3>Reflection</h3>
+    <p>
+      This work grew both my engineering and design thinking. On the technical side, I learned Dash, modular Python patterns, and how to wrangle real-world data at scale. The hardest part was re-architecting the UX and data flow—replacing hardcoded rescue logic with flexible filters while keeping the app fast and simple. The biggest takeaway: iterate with users in mind, and measure success by clarity, not feature count.
+    </p>
+  </section>
+
+  <h2>Downloads</h2>
+  <ul>
+    <li><a href="/files/adoption-dashboard-narrative.docx">Narrative (DOCX)</a></li>
+    <li><a href="/files/adoption-dashboard-before.zip">Original (before) — ZIP</a></li>
+  </ul>
+
+  <p><a href="/">← Back to Home</a></p>
+</main>
