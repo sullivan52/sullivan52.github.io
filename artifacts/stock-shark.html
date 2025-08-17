@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stock Shark — Android (Java, SQLite)</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <nav>
+    <a class="navlink" href="/">Home</a>
+    <a class="navlink" href="/artifacts/stock-shark.html">Stock Shark (Android)</a>
+    <a class="navlink" href="/artifacts/employee-avl.html">Employee Manager (C++ AVL)</a>
+    <a class="navlink" href="/artifacts/adoption-dashboard.html">Adoption Dashboard (Python/Dash)</a>
+    <a class="navlink" href="/code-review.html">Code Review</a>
+  </nav>
+
+  <!-- Paste-ready main content starts here -->
+  <main>
+    <h1>Stock Shark — Android (Java, SQLite)</h1>
+
+    <section class="card">
+      <p><strong>Summary:</strong> Stock Shark is an Android inventory management app for small businesses, warehouses, and individual users to track stock levels. Originally built in CS 360 (Mobile Architecture and Programming), this enhanced version emphasizes security, usability, and maintainability.</p>
+    </section>
+
+    <h2>Code</h2>
+    <ul>
+      <li><strong>Enhanced (browse):</strong> <a href="https://github.com/sullivan52/stock-shark-android">github.com/sullivan52/stock-shark-android</a></li>
+      <li><strong>Original (before) download:</strong> <a href="/files/stock-shark-before.zip">stock-shark-before.zip</a></li>
+    </ul>
+
+    <h2>Narrative</h2>
+    <section class="card">
+      <h3>Overview</h3>
+      <p>The artifact is an Android inventory management application, originally created in CS 360 earlier this year. It allows users to add items, adjust quantities, and review current stock. The enhancement effort modernized the codebase, improved usability, and strengthened security.</p>
+
+      <h3>Why it’s in the ePortfolio</h3>
+      <p>I selected this artifact because it is my strongest demonstration of software design and engineering to date. It reflects thoughtful use of Material Design and UI/UX principles and shows that I can deliver professional-quality mobile experiences—an area I’m excited to pursue.</p>
+
+      <h3>Enhancements Made</h3>
+      <ul>
+        <li><strong>Modularized responsibilities:</strong> clearer separation of concerns, focused classes, and reusable utilities.</li>
+        <li><strong>Secured database operations:</strong> scoped SQLite queries to users; parameterized access.</li>
+        <li><strong>Secure coding practices:</strong> password hashing, input validation, and basic SQLi prevention.</li>
+        <li><strong>Material Design compliance:</strong> updated components and consistent patterns.</li>
+        <li><strong>Expanded XML layouts & drawables:</strong> new screens, icons, and assets to improve navigation and branding.</li>
+        <li><strong>Robust error handling:</strong> consistent messages, defensive checks, and fail-safes.</li>
+        <li><strong>Accessibility:</strong> content descriptions, real-time validation, improved focus handling.</li>
+        <li><strong>UX polish:</strong> clearer hierarchy, feedback loops, toasts, and real-time guidance.</li>
+        <li><strong>Documentation:</strong> JavaDoc across core methods; clearer business logic and error behavior.</li>
+        <li><strong>Android best practices:</strong> externalized strings/dimensions for localization and theming.</li>
+        <li><strong>Debugging & testing workflow:</strong> emulator-based reproduction, structured logging, targeted fixes.</li>
+      </ul>
+
+      <h3>Outcomes Addressed</h3>
+      <ul>
+        <li><strong>Security mindset:</strong> security built into design (hashing, validation, scoped queries, error hygiene).</li>
+        <li><strong>Professional communication:</strong> comprehensive JavaDoc and improved internal documentation to aid future contributors.</li>
+        <li><strong>Software engineering & design:</strong> maintainable architecture, modular code, and accessible UI.</li>
+      </ul>
+
+      <h3>Reflection</h3>
+      <p>Enhancing the app showed me how many moving parts go into a production-ready mobile application. Layering accessibility and security onto a simple codebase surfaced real-world challenges—from Material theming conflicts and app freezes to cryptic exceptions like the “1.0dip” NumberFormatException. Working through these issues sharpened my debugging workflow and reinforced thinking from both user and developer perspectives. The result is a codebase that’s easier to understand, safer to extend, and more pleasant to use. This project strengthened my confidence in mobile development and confirmed my interest in roles that blend creativity, problem-solving, and user empathy.</p>
+    </section>
+
+    <h2>Downloads</h2>
+    <ul>
+      <li><a href="/files/stock-shark-narrative.pdf" target="_blank" rel="noopener">Narrative (PDF)</a></li>
+    </ul>
+
+    <h2>Links</h2>
+    <ul>
+      <li><strong>Repository:</strong> <a href="https://github.com/sullivan52/stock-shark-android">github.com/sullivan52/stock-shark-android</a></li>
+      <li><strong>README:</strong> <a href="https://github.com/sullivan52/stock-shark-android/blob/main/README.md">View</a></li>
+    </ul>
+
+    <p><a href="/">← Back to Home</a></p>
+  </main>
+  <!-- End main content -->
+</body>
+</html>
