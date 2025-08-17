@@ -1,0 +1,55 @@
+<main>
+  <h1>Employee Management — C++ (AVL, CSV)</h1>
+
+  <section class="card">
+    <p><strong>Summary:</strong> An Employee Management System upgraded from a basic BST into a self-balancing AVL tree to guarantee O(log n) operations. The enhancement focuses on algorithmic rigor, memory safety, input robustness, and professional documentation.</p>
+  </section>
+
+  <h2>Code</h2>
+  <ul>
+    <li><strong>Enhanced (browse):</strong> <a href="https://github.com/sullivan52/employee-mangement-avl">github.com/sullivan52/employee-mangement-avl</a></li>
+  </ul>
+
+  <h2>Narrative</h2>
+  <section class="card">
+    <h3>Overview</h3>
+    <p>
+      This artifact began as a Binary Search Tree assignment in my Data Structures and Algorithms course (about a year ago), originally managing course catalogs with insert/search/in-order traversal. I transformed it into a professional-grade Employee Management System built on an AVL tree for consistent O(log n) inserts and lookups.
+    </p>
+
+    <h3>Why it’s in the ePortfolio</h3>
+    <p>
+      It’s the most algorithmically rich work I completed: it let me demonstrate balanced-tree design, rotation logic, and real-world applicability by shifting from a course catalog to an employee directory—closer to modern data management in business/HR systems.
+    </p>
+
+    <h3>Enhancements Made</h3>
+    <ul>
+      <li><strong>BST → AVL:</strong> implemented self-balancing with all four rotations (LL, RR, LR, RL) to preserve logarithmic performance.</li>
+      <li><strong>Memory safety:</strong> added destructor, deep-copy constructor, and assignment operator (Rule of Three) to avoid leaks and dangling pointers.</li>
+      <li><strong>Robust I/O:</strong> input validation and error handling for both file and user input.</li>
+      <li><strong>Modular design:</strong> refactored monolithic code into clear, testable functions.</li>
+      <li><strong>CSV parsing:</strong> improved parser for quoted fields, whitespace trimming, and malformed data handling.</li>
+      <li><strong>Documentation:</strong> comprehensive README describing usage, performance notes, and technical structure.</li>
+    </ul>
+
+    <h3>Outcomes Addressed</h3>
+    <ul>
+      <li><strong>Design & evaluate solutions:</strong> identified worst-case BST behavior and engineered AVL balancing to maintain O(log n) guarantees under diverse inputs.</li>
+      <li><strong>Well-founded practices:</strong> applied C++ memory management correctly (destructor/copy/assignment) and disciplined error handling.</li>
+      <li><strong>Professional communication:</strong> clarified complexity, invariants, and usage via inline documentation and a polished README.</li>
+    </ul>
+
+    <h3>Reflection</h3>
+    <p>
+      The biggest lesson was how dramatically balanced trees outperform unbalanced ones at scale. Implementing rotations and keeping heights in sync pushed me to reason precisely about invariants and recursion. Debugging imbalance detection and pointer updates deepened my intuition for tree behavior. The mindset shift—from “it works” to “it scales safely and is maintainable”—was the most valuable outcome of this enhancement.
+    </p>
+  </section>
+
+  <h2>Downloads</h2>
+  <ul>
+    <li><a href="/files/employee-avl-narrative.docx">Narrative (DOCX)</a></li>
+    <li><a href="/files/employee-avl-before.zip">Original (before) — ZIP</a></li>
+  </ul>
+  
+  <p><a href="/">← Back to Home</a></p>
+</main>
